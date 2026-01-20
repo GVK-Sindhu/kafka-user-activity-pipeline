@@ -66,4 +66,5 @@ pytest tests/integration
 
 Environment variables are managed via `.env` files. See `.env.example` for defaults.
 - `PRODUCER_EVENT_RATE`: Events per second.
-- `KAFKA_TOPIC_USER_ACTIVITIES`: Topic name.
+- `KAFKA_TOPIC_USER_ACTIVITIES`: KAFKA_TOPIC_USER_ACTIVITIES: Name of the Kafka topic where user_activity events are produced and consumed.
+.
